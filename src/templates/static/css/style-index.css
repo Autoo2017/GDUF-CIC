@@ -1,0 +1,17 @@
+input[type="submit"] {
+  font-size: 20px;
+  font-family: "sans-serif";
+  color: #abaaaa;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

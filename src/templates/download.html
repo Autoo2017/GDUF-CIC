@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Download Page</title>
+    <link rel = "stylesheet" href="static/css/style-download.css" type="text/css" />
+</head>
+<body>
+
+    <form action="{{ url_for('download', uuid=uuid) }}" method="get">
+        <input type="submit" value="Download">
+    </form>
+    <p>下载地址为：<br>{{url}}</p>
+</body>
+</html>
